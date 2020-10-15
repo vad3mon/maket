@@ -1,6 +1,6 @@
 body{
   background-color: #333;
-  font-size: 20px;
+  font-size: 32px;
   font-family: 'Monospace',sans-serif;
 }
 
@@ -14,28 +14,6 @@ body{
 
 .grid-auto-rows{
   grid-auto-rows: 180px;
-}
-
-.m{
-  margin: 30px;
-}
-
-.gap{
-  gap: 30px;
-}
-
-.border-radius{
-  border-radius: 20px;
-}
-
-.bgc-white{
-  background-color: #fff;
-}
-
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .grid-column-span-1{
@@ -60,4 +38,55 @@ body{
 
 .grid-row-span-3{
   grid-row-start: span 3;
+}
+
+
+.m{
+  margin: 30px;
+}
+
+.gap{
+  gap: 30px;
+}
+
+.border-radius{
+  border-radius: 20px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgc-white{
+  background-color: white;
+}
+
+.bgc-purple{
+  background-color: purple;
+}
+
+.bgc-red{
+  background-color: red;
+}
+
+.bgc-green{
+  background-color: green;
+}
+
+.bgc-orange{
+  background-color: orange;
+}
+
+.bgc-yellow{
+  background-color: yellow;
+}
+
+.bgc-lime{
+  background-color: lime;
+}
+
+.bgc-pink{
+  background-color: pink;
 }
