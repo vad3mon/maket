@@ -1,0 +1,39 @@
+body{
+  background-color: #333;
+  font-size: 20px;
+  font-family: 'Monospace',sans-serif;
+}
+
+.grid{
+  display: grid;
+}
+
+.grid-7{
+  grid-template-columns: repeat(7,1fr);
+}
+
+.grid-auto-rows{
+  grid-auto-rows: 100px;
+}
+
+.m{
+  margin: 30px;
+}
+
+.gap{
+  gap: 30px;
+}
+
+.border-radius{
+  border-radius: 20px;
+}
+
+.bgc-white{
+  background-color: #fff;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
